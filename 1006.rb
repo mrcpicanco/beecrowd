@@ -31,4 +31,4 @@ n3 = gets.chomp.to_f
 
 media = ((n1 * 2) + (n2 * 3) + (n3 * 5)) / 10
 
-puts "MEDIA = #{ media}"
+puts "MEDIA = #{'%.1f' % media}"
